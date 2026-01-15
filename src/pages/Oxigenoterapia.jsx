@@ -1,5 +1,5 @@
 import products from "../data/Products";
-import ProductCard from "../components/productCard";
+import ProductCard from "../components/ProductCard";
 
 function Oxigenoterapia() {
   const oxigeno = products.filter(

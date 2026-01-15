@@ -1,5 +1,5 @@
 import Products from "../data/Products";
-import ProductCard from "../components/productCard";
+import ProductCard from "../components/ProductCard";
 
 function Curaciones() {
   const curaciones = Products.filter(
