@@ -1,6 +1,6 @@
 import imagenPanalNino from "../assets/imgPanales/imagen-panal-niño.webp";
 import imagenPanalJuvenilChico from "../assets/imgPanales/imagen-panal-juvenil-chico.webp";
-import imagenPanalJuvenilMediano from "../assets/imgPanales/imagen-panal-Juvenil-mediano.webp";
+import imagenPanalJuvenilMediano from "../assets/imgPanales/imagen-panal-juvenil-mediano.webp";
 import imagenPanalAdultoGrande from "../assets/imgPanales/imagen-panal-adulto-grande.webp";
 import imagenPanalAdultoExtraGrande from "../assets/imgPanales/imagen-panal-adulto-extra-grande.webp";
 import imagenPanalApositosIncontinencia from "../assets/imgPanales/apositosIncontinencia.jfif";
