@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Descartables from "./pages/Descartables";
 import Oxigenoterapia from "./pages/Oxigenoterapia";
 import Contacto from "./pages/Contacto";
-import NavBar from "./components/navBar";
+import NavBar from "./components/NavBar";
 import WhatsAppButton from "./components/WhatsappButton";
 import Panales from "./pages/Panales";
 import Curaciones from "./pages/Curaciones";
