@@ -1,5 +1,7 @@
 import products from "../data/Products";
 import ProductCard from "../components/ProductCard";
+import HeaderView from "../components/HeaderView";
+import FooterContact from "../components/FooterContact";
 
 function Descartables() {
   const descartables = products.filter(
@@ -8,18 +10,10 @@ function Descartables() {
 
   return (
     <div className="min-h-screen bg-gray-50/50">
-      {/* Cabecera Profesional */}
-      <header className="bg-white border-b border-gray-200 pt-12 pb-10">
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900">
-            Insumos Descartables
-          </h1>
-          <p className="mt-3 text-gray-500 text-lg max-w-2xl">
-            Material descartable de alta calidad para procedimientos médicos y cuidados de higiene profesional.
-          </p>
-          <div className="w-16 h-1 bg-blue-600 mt-4 rounded-full"></div>
-        </div>
-      </header>
+      <HeaderView 
+        titulo="Insumos Descartables" 
+        descripcion=" Material descartable de alta calidad para procedimientos médicos y cuidados de higiene profesional." 
+      />
 
       {/* Listado de Productos (Uno debajo del otro) */}
       <main className="max-w-4xl mx-auto px-6 py-12">
@@ -35,6 +29,12 @@ function Descartables() {
           </div>
         )}
       </main>
+
+        <FooterContact
+        titulo="¿Buscás insumos para tu clínica o consultorio?"
+        descripcion="Contamos con stock permanente de materiales estériles y descartables de alta calidad. Garantizá la máxima higiene en cada procedimiento con nuestro asesoramiento."
+      />
+
     </div>
   );
 }
