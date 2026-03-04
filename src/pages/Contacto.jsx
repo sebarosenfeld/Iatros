@@ -23,7 +23,7 @@ function Contacto() {
 
     // Abrimos el gestor de correo
     window.location.href = `mailto:${emailDestino}?subject=${encodeURIComponent(
-      asunto
+      asunto,
     )}&body=${cuerpoMail}`;
   };
 

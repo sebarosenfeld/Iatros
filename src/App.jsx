@@ -7,11 +7,13 @@ import NavBar from "./components/NavBar";
 import WhatsAppButton from "./components/WhatsappButton";
 import Panales from "./pages/Panales";
 import Curaciones from "./pages/Curaciones";
+import DynamicTitle from "./components/DynamicTitle";
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
+      <DynamicTitle/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/descartables" element={<Descartables />} />

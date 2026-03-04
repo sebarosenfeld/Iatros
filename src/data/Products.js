@@ -22,7 +22,7 @@ import imagenVasoHumidificador from "../assets/imgOxigenoterapia/vasoHumidificad
 import imagenCanulaNasal from "../assets/imgOxigenoterapia/canulaNasal.jfif";
 import imagenCpap from "../assets/imgOxigenoterapia/Cpap.jfif";
 import imagenBpap from "../assets/imgOxigenoterapia/Bpap.jfif";
-import imagenVac from "../assets/imgCuraciones/Vac.jfif";
+import imagenVac from "../assets/imgCuraciones/SistemaVac.jpeg";
 import imagenReservorio from "../assets/imgCuraciones/Reservorio.jfif";
 import imagenEsponja from "../assets/imgCuraciones/Esponja.jfif";
 
