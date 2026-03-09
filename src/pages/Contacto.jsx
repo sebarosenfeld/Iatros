@@ -15,7 +15,7 @@ function Contacto() {
     const emailCliente = formData.get("user_email");
     const mensaje = formData.get("user_message");
 
-    const emailDestino = "andyrosenfeld52@gmail.com";
+    const emailDestino = "iatros.ar@gmail.com";
     const asunto = `Consulta Web Iatros - ${nombre}`;
 
     // Armamos el cuerpo del mensaje con saltos de línea
@@ -97,7 +97,7 @@ function Contacto() {
                 <p className="text-xl font-bold">+54 11 2361-8247</p>
               </a>
               <a
-                href="mailto:andyrosenfeld52@gmail.com"
+                href="mailto:iatros.ar@gmail.com"
                 className="bg-white p-6 rounded-2xl text-gray-900 border border-gray-100 shadow-sm hover:border-blue-200 transition-colors group flex flex-col justify-center"
               >
                 <p className="text-blue-600 text-sm font-bold uppercase tracking-wider">
@@ -105,7 +105,7 @@ function Contacto() {
                 </p>
                 {/* Bajamos a text-base y quitamos el break-all */}
                 <p className="text-base font-bold text-gray-800 truncate">
-                  andyrosenfeld52@gmail.com
+                  iatros.ar@gmail.com
                 </p>
               </a>
               <div className="bg-gray-900 p-6 rounded-2xl text-white">
