@@ -9,7 +9,7 @@ const FooterContact = ({ titulo, descripcion }) => {
             {descripcion}
           </p>
           <a 
-            href="https://wa.me/541144280904"
+            href="https://wa.me/541123618247"
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-full font-bold transition-all transform hover:scale-105"

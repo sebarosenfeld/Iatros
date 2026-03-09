@@ -47,7 +47,7 @@ export default function FeaturedProducts() {
 
             <a
               className="product-card-button"
-              href="https://wa.me/5491144280904"
+              href="https://wa.me/5491123618247"
             >
               Consultar
             </a>

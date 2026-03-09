@@ -48,8 +48,8 @@ export default function Home() {
     <>
       <Hero />
       <ProductCategories />
-      <FeaturedProducts />
       <About />
+      <FeaturedProducts />
       <CTA />
       <WhatsAppFloat />
     </>

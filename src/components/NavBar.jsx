@@ -38,7 +38,7 @@ function NavBar() {
           
           {/* Botón WhatsApp solo visible en menú móvil */}
           <a
-            href="https://wa.me/541144280904"
+            href="https://wa.me/541123618247"
             className="md:hidden mt-4 bg-green-500 text-white px-8 py-3 rounded-full font-medium"
           >
             Consultar WhatsApp
@@ -49,7 +49,7 @@ function NavBar() {
         <div className="flex items-center gap-4 z-50">
           {/* Botón Consultar (Solo Desktop) */}
           <a
-            href="https://wa.me/541144280904"
+            href="https://wa.me/541123618247"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium transition shadow-sm"

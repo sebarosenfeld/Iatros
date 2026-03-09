@@ -13,7 +13,7 @@ export default function CTA(){
       </p>
 
       <a
-        href="https://wa.me/5491144280904"
+        href="https://wa.me/5491123618247"
         className="cta-button"
       >
         Escribinos por WhatsApp

@@ -6,7 +6,7 @@ export default function Hero() {
 
         <p className="hero-subtitle">
           {/* Ajustado según el texto exacto de la imagen */}
-          Productos médicos para clinices, profesionales y cuidado domiciliiario
+          Productos médicos para clinicas, profesionales y cuidado domiciliario
         </p>
 
         <div className="hero-tags">
@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-buttons">
-          <a href="https://wa.me/5491144280904" className="btn-primary">
+          <a href="https://wa.me/5491123618247" className="btn-primary">
             {/* Si quieres el icono de WhatsApp, deberías sumarlo aquí */}
             Consultar por WhatsApp
           </a>

@@ -88,13 +88,13 @@ function Contacto() {
             {/* Tarjetas de Datos Rápidos */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <a
-                href="https://wa.me/541144280904"
+                href="https://wa.me/541123618247"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 p-6 rounded-2xl text-white hover:bg-blue-700 transition-colors group"
               >
                 <p className="text-blue-100 text-sm">Ventas WhatsApp</p>
-                <p className="text-xl font-bold">+54 11 4428-0904</p>
+                <p className="text-xl font-bold">+54 11 2361-8247</p>
               </a>
               <a
                 href="mailto:andyrosenfeld52@gmail.com"

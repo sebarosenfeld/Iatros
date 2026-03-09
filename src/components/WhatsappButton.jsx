@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 function WhatsAppButton() {
   const location = useLocation();
 
-  const phoneNumber = "5491144280904";
+  const phoneNumber = "5491123618247";
 
   const getMessageByPage = () => {
     if (location.pathname === "/descartables") {
