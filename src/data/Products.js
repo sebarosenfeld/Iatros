@@ -7,6 +7,7 @@ import imagenPanalAdultoExtraGrande from "../assets/imgPanales/imagen-panal-adul
 import imagenPanalAdultoExtraGrandeRecto from "../assets/imgPanales/imagen-panal-adulto-extra-grande-recto.webp";
 import imagenPanalApositosIncontinencia from "../assets/imgPanales/apositosIncontinencia.jfif";
 import imagenPanalRefuerzaPanal from "../assets/imgPanales/refuerzaPanal.jfif";
+import imagenPanalPlenitud from "../assets/imgPanales/Plenitud.jpg";
 import imagenZaleas from "../assets/imgPanales/zaleas.jfif";
 import imagenApositos from "../assets/imgDescartables/apositos.jfif";
 import imagenGasas from "../assets/imgDescartables/gasas.jfif";
@@ -242,6 +243,14 @@ const products = [
     precio: 3000,
     categoria: "Curaciones",
     imagen: imagenEsponja,
+  },
+  {
+    id: 7,
+    nombreProducto: "Plenitud Protect Extra Grande",
+    descripcion: " Diseñada para la incontinencia de moderada a intensa, ofreciendo la máxima absorción y un ajuste cómodo similar a la ropa interior real.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalPlenitud,
   },
 ];
 
