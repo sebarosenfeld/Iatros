@@ -8,6 +8,13 @@ import imagenPanalAdultoExtraGrandeRecto from "../assets/imgPanales/imagen-panal
 import imagenPanalApositosIncontinencia from "../assets/imgPanales/apositosIncontinencia.jfif";
 import imagenPanalRefuerzaPanal from "../assets/imgPanales/refuerzaPanal.jfif";
 import imagenPanalPlenitud from "../assets/imgPanales/Plenitud.jpg";
+import imagenPanalBabysec from "../assets/imgPanales/Babysec.jfif";
+import imagenPanalGoodNight from "../assets/imgPanales/GoodNight.jfif";
+import imagenPanalHennia from "../assets/imgPanales/Hennia.webp";
+import imagenPanalHuggies from "../assets/imgPanales/Huggies.jfif";
+import imagenPanalIndaSlip from "../assets/imgPanales/IndaSlip.jfif";
+import imagenPanalNonisec from "../assets/imgPanales/Nonisec.jfif";
+import imagenPanalPampers from "../assets/imgPanales/Pampers.jfif";
 import imagenZaleas from "../assets/imgPanales/zaleas.jfif";
 import imagenApositos from "../assets/imgDescartables/apositos.jfif";
 import imagenGasas from "../assets/imgDescartables/gasas.jfif";
@@ -245,12 +252,68 @@ const products = [
     imagen: imagenEsponja,
   },
   {
-    id: 7,
+    id: 28,
     nombreProducto: "Plenitud Protect Extra Grande",
-    descripcion: " Diseñada para la incontinencia de moderada a intensa, ofreciendo la máxima absorción y un ajuste cómodo similar a la ropa interior real.",
+    descripcion: "Diseñada para la incontinencia de moderada a intensa, ofreciendo la máxima absorción y un ajuste cómodo similar a la ropa interior real.",
     precio: 3000,
     categoria: "Panales",
     imagen: imagenPanalPlenitud,
+  },
+  {
+    id: 29,
+    nombreProducto: "Babysec",
+    descripcion: "Los pañales Babysec (Premium Soft, Super Premium, Ultrasoft) son opciones hipoalergénicas diseñadas para brindar hasta 12 horas de absorción.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalBabysec,
+  },
+  {
+    id: 30,
+    nombreProducto: "GoodNight",
+    descripcion: "Cuentan con 5 capas de protección, diseño similar a ropa interior real con laterales elásticos y materiales suaves, hipoalergénicos y sin fragancia.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalGoodNight,
+  },
+  {
+    id: 31,
+    nombreProducto: "Hennia",
+    descripcion: "Diseñados para la incontinencia, destacando por su alta capacidad de absorción gracias al gel superabsorbente, tela hipoalergénica y cubiertas impermeables.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalHennia,
+  },
+  {
+    id: 32,
+    nombreProducto: "Huggies",
+    descripcion: "Ofrecen alta absorción y cuidado para la piel, destacando por sus tecnologías respirables, suavidad similar al algodón y sistemas anti-filtraciones.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalHuggies,
+  },
+  {
+    id: 33,
+    nombreProducto: "IndaSlip",
+    descripcion: "Protectores descartables de alta absorción diseñados para la incontinencia severa en adultos. Cuentan con un sistema anatómico, barreras antidesbordes, cintura elástica y un núcleo súper absorbente que mantiene la piel seca.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalIndaSlip,
+  },
+  {
+    id: 34,
+    nombreProducto: "Nonisec",
+    descripcion: "Descartables, diseñados para incontinencia severa con alto poder de absorción (gel) y protección para la piel gracias a su contenido de aloe vera. Disponibles en modelos rectos y anatómicos, ofrecen confort y seguridad, con barreras anti-desbordes y cintas repegables.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalNonisec,
+  },
+  {
+    id: 35,
+    nombreProducto: "Pampers",
+    descripcion: "Ofrecen protección y comodidad superiores con tecnología de rápida absorción, barreras reforzadas anti-derrames y materiales hipoalergénicos que cuidan la piel sensible.",
+    precio: 3000,
+    categoria: "Panales",
+    imagen: imagenPanalPampers,
   },
 ];
 
