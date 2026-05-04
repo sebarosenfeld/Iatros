@@ -31,7 +31,8 @@ import imagenCanulaNasal from "../assets/imgOxigenoterapia/canulaNasal.jfif";
 import imagenCpap from "../assets/imgOxigenoterapia/Cpap.jfif";
 import imagenBpap from "../assets/imgOxigenoterapia/Bpap.jfif";
 import imagenVac from "../assets/imgCuraciones/SistemaVac.jpeg";
-import imagenReservorio from "../assets/imgCuraciones/Reservorio.jfif";
+import imagenVacPortatil from "../assets/imgCuraciones/vacPortatil.jpg";
+import imagenReservorio from "../assets/imgCuraciones/reservorio500ML.png";
 import imagenEsponja from "../assets/imgCuraciones/Esponja.jfif";
 
 const products = [
@@ -237,6 +238,14 @@ const products = [
   },
   {
     id: 26,
+    nombreProducto: "Sistema Vac portátil",
+    descripcion: "Sistema Vac más pequeño y fácil de transportar.",
+    precio: 3000,
+    categoria: "Curaciones",
+    imagen: imagenVacPortatil,
+  },
+  {
+    id: 27,
     nombreProducto: "Reservorio",
     descripcion: "Recipientes de recolección de exudado para la Terapia de Cierre Asistido por Vacío (VAC).",
     precio: 3000,
@@ -244,7 +253,7 @@ const products = [
     imagen: imagenReservorio,
   },
   {
-    id: 27,
+    id: 28,
     nombreProducto: "Esponja",
     descripcion: "Conjunto estéril diseñado para aplicarse en heridas complejas y promover la cicatrización.",
     precio: 3000,
@@ -252,7 +261,7 @@ const products = [
     imagen: imagenEsponja,
   },
   {
-    id: 28,
+    id: 29,
     nombreProducto: "Plenitud Protect Extra Grande",
     descripcion: "Diseñada para la incontinencia de moderada a intensa, ofreciendo la máxima absorción y un ajuste cómodo similar a la ropa interior real.",
     precio: 3000,
@@ -260,7 +269,7 @@ const products = [
     imagen: imagenPanalPlenitud,
   },
   {
-    id: 29,
+    id: 30,
     nombreProducto: "Babysec",
     descripcion: "Los pañales Babysec (Premium Soft, Super Premium, Ultrasoft) son opciones hipoalergénicas diseñadas para brindar hasta 12 horas de absorción.",
     precio: 3000,
@@ -268,7 +277,7 @@ const products = [
     imagen: imagenPanalBabysec,
   },
   {
-    id: 30,
+    id: 31,
     nombreProducto: "GoodNight",
     descripcion: "Cuentan con 5 capas de protección, diseño similar a ropa interior real con laterales elásticos y materiales suaves, hipoalergénicos y sin fragancia.",
     precio: 3000,
@@ -276,7 +285,7 @@ const products = [
     imagen: imagenPanalGoodNight,
   },
   {
-    id: 31,
+    id: 32,
     nombreProducto: "Hennia",
     descripcion: "Diseñados para la incontinencia, destacando por su alta capacidad de absorción gracias al gel superabsorbente, tela hipoalergénica y cubiertas impermeables.",
     precio: 3000,
@@ -284,7 +293,7 @@ const products = [
     imagen: imagenPanalHennia,
   },
   {
-    id: 32,
+    id: 33,
     nombreProducto: "Huggies",
     descripcion: "Ofrecen alta absorción y cuidado para la piel, destacando por sus tecnologías respirables, suavidad similar al algodón y sistemas anti-filtraciones.",
     precio: 3000,
@@ -292,7 +301,7 @@ const products = [
     imagen: imagenPanalHuggies,
   },
   {
-    id: 33,
+    id: 34,
     nombreProducto: "IndaSlip",
     descripcion: "Protectores descartables de alta absorción diseñados para la incontinencia severa en adultos. Cuentan con un sistema anatómico, barreras antidesbordes, cintura elástica y un núcleo súper absorbente que mantiene la piel seca.",
     precio: 3000,
@@ -300,7 +309,7 @@ const products = [
     imagen: imagenPanalIndaSlip,
   },
   {
-    id: 34,
+    id: 35,
     nombreProducto: "Nonisec",
     descripcion: "Descartables, diseñados para incontinencia severa con alto poder de absorción (gel) y protección para la piel gracias a su contenido de aloe vera. Disponibles en modelos rectos y anatómicos, ofrecen confort y seguridad, con barreras anti-desbordes y cintas repegables.",
     precio: 3000,
@@ -308,7 +317,7 @@ const products = [
     imagen: imagenPanalNonisec,
   },
   {
-    id: 35,
+    id: 36,
     nombreProducto: "Pampers",
     descripcion: "Ofrecen protección y comodidad superiores con tecnología de rápida absorción, barreras reforzadas anti-derrames y materiales hipoalergénicos que cuidan la piel sensible.",
     precio: 3000,
